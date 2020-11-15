@@ -1,7 +1,7 @@
 {
-  "name": "a2hs",
+  "name": "ssa2hs",
   "version": "1.0.0",
-  "description": "a2hs React component",
+  "description": "ssa2hs React component",
   "main": "lib/index.js",
   "files": [
     "css",
@@ -27,10 +27,10 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
-  "author": "",
-  "homepage": "",
+  "author": "Shahid",
+  "homepage": "https://github.com/shahid-khans/ssa2hs",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/shahid-khans/ssa2hs.git",
   "keywords": [
     "react-component"
   ]
