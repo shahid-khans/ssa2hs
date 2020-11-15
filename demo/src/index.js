@@ -1,15 +1,17 @@
-import React, {Component} from 'react'
-import {render} from 'react-dom'
+import React, { Component } from 'react'
+import { render } from 'react-dom'
+import DemoConsumer from './DemoConsumer'
+import A2HSProvider from '../../src'
 
-import Example from '../../src'
-
-export default class Demo extends Component {
+class Demo extends Component {
   render() {
     return <div>
       <h1>a2hs Demo</h1>
-      <Example/>
+      <A2HSProvider>
+        <DemoConsumer />
+      </A2HSProvider>
     </div>
   }
 }
 
-render(<Demo/>, document.querySelector('#demo'))
+render(<Demo />, document.querySelector('#demo'))

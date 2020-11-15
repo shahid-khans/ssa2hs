@@ -1,6 +1,6 @@
 {
   "name": "ssa2hs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "ssa2hs React component",
   "main": "lib/index.js",
   "files": [
@@ -20,7 +20,8 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "react": "16.x"
+    "react": "17.x",
+    "react-dom": "17.x"
   },
   "devDependencies": {
     "nwb": "0.25.x",
